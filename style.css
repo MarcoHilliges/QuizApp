@@ -6,3 +6,24 @@
 .d-none{
     display: none !important;
 }
+
+.card{
+    width: 30rem;
+}
+
+.form-check-input:hover, .form-check-label:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 499px){
+    .card{
+        width: 98vw;
+    }
+}
+
+@media screen and (max-width: 349px){
+    .card-footer{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}

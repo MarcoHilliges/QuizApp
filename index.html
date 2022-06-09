@@ -31,7 +31,7 @@
                         position-absolute top-50 start-50 translate-middle 
                         border border-2 border-light
                         shadow-lg mb-5 bg-body rounded" 
-                 style="width: 30rem;">
+                 >
 
                 <img id="questionImg"
                      src="" class="card-img-top">
@@ -46,47 +46,41 @@
 
                 <div id="answersArea"
                      class="container-fluid border-top border-bottom border-1">
-
-                    <div class="form-check ">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                        <label class="form-check-label" for="flexRadioDefault1">
-                            Antwort 1
-                        </label>
-                    </div>
-
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-                        <label class="form-check-label" for="flexRadioDefault3">
-                            Antwort 2
-                        </label>
-                    </div>
-
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
-                        <label class="form-check-label" for="flexRadioDefault3">
-                            Antwort 3
-                        </label>
-                    </div>
-
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
-                        <label class="form-check-label" for="flexRadioDefault4">
-                            Antwort 4
-                        </label>
-                    </div>
                 </div>
 
-                
-                
-                <div class="card-body d-flex justify-content-between">
-                    <button onclick="restart()" id="buttonRestart" type="button" class="btn btn-outline-danger">Neustart</button>
+                <div class="card-body 
+                            d-flex 
+                            justify-content-between 
+                            card-footer">
+
+                    <button onclick="restart()" 
+                            id="buttonRestart" 
+                            type="button" 
+                            class="btn btn-outline-danger">
+                                Neustart
+                    </button>
 
                     <div id="questionNumberArea">
-                        <span id="currentQuestion"></span> von <span id="numberOfQuestions">9</span>
+                        <span id="currentQuestion"></span> 
+                        
+                        von 
+                        
+                        <span id="numberOfQuestions"></span>
                     </div>
 
-                    <button onclick="saveResult()" id="buttonNextQuestion" type="button" class="btn btn-outline-success">Nächste Frage</button>
-                    <button onclick="saveResult()" id="buttonQuestionScore" type="button" class="btn btn-success d-none">Ergebniss</button>
+                    <button onclick="saveResult()" 
+                            id="buttonNextQuestion" 
+                            type="button" 
+                            class="btn btn-outline-success">
+                                Nächste Frage
+                    </button>
+
+                    <button onclick="saveResult()" 
+                            id="buttonQuestionScore" 
+                            type="button" 
+                            class="btn btn-success d-none">
+                                Ergebniss
+                    </button>
                 </div>
             </div>
         </div>
