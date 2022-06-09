@@ -49,6 +49,7 @@ function showScore(){
 
 function restart(){
     questionNumber = 0;
+    rightAnswerNumber = 0;
     render();
     document.getElementById('buttonNextQuestion').classList.remove('d-none');
     document.getElementById('buttonQuestionScore').classList.add('d-none');
