@@ -9,19 +9,45 @@
 
 .card{
     width: 30rem;
+    
+    
 }
 
 .form-check-input:hover, .form-check-label:hover{
     cursor: pointer;
 }
 
-@media screen and (max-width: 499px){
+@media(orientation: portrait) and (max-width: 499px){
     .card{
         width: 98vw;
     }
 }
 
-@media screen and (max-width: 349px){
+@media(orientation: landscape) and (max-height: 649px){
+    .card{
+        flex-direction: row !important;
+        width: 95vw;
+        align-items: center;
+     
+    }
+    .card-img-top{
+        height: 160px;
+        border-radius: 5px;
+    }
+
+    #answersArea{
+        border: unset !important;
+    }
+
+    .card-footer{
+        flex-direction: column-reverse;
+        align-items: center;
+        background-color: unset !important;
+        border: unset !important;
+    }
+}
+
+@media(orientation: portrait) and (max-width: 349px){
     .card-footer{
         flex-direction: column-reverse;
         align-items: center;
