@@ -2,3 +2,7 @@
     height: 100vh;
     background-color: rgb(247, 227, 197);
 }
+
+.d-none{
+    display: none !important;
+}

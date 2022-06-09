@@ -3,79 +3,49 @@ let questions = [
         "question" : "Um welches bekannte Spiel handelt es sich",
         "answers" : ["Mühle","Schach","Mensch ärgere dich nicht","Monopoly"],
         "player_answer": 99,
-        "right_answer" : 1,
+        "right_answer" : 1,     // 0-3
         "category" : "Brettspiele",
     },
     {   "question_img" : "img/img2.jpg",
         "question" : "Wieviele Spieler stehen bei einem normalen Fußballspiel auf dem Spielfeld",
-        "answers" : {
-            1 : "11",
-            2 : "20",
-            3 : "22",
-            4 : "14"
-        },
-        "player_answer": 0,
-        "right_answer" : 3,
+        "answers" : ["11","20","22","14"],
+        "player_answer": 99,
+        "right_answer" : 2,     // 0-3
         "category" : "Sport",
     },
     {   "question_img" : "img/gamesImg.jpg",
         "question" : "Wieviele Champions bilden in 'League of Legends' ein Team",
-        "answers" : {
-            1 : "10",
-            2 : "2",
-            3 : "Es ist ein Single-Player-Spiel",
-            4 : "5"
-        },
-        "player_answer": 0,
-        "right_answer" : 4,
+        "answers" : ["10","2","Es ist ein Single-Player-Spiel","5"],
+        "player_answer": 99,
+        "right_answer" : 3,     // 0-3
         "category" : "Videospiele",
     },
     {   "question_img" : "img/img4.jpg",
         "question" : "Aus welchem Spiel stammt das angezeigte Bild",
-        "answers" : {
-            1 : "Minecraft",
-            2 : "Call of Duty",
-            3 : "Civilisation",
-            4 : "Super Mario"
-        },
-        "player_answer": 0,
-        "right_answer" : 1,
+        "answers" : ["Minecraft","Call of Duty","Civilisation","Super Mario"],
+        "player_answer": 99,
+        "right_answer" : 0,     // 0-3
         "category" : "Videospiele",
     },
     {   "question_img" : "img/img5.jpg",
         "question" : "In welchem Jahr erschien die PlayStation 1 in Japan",
-        "answers" : {
-            1 : "1993",
-            2 : "1994",
-            3 : "1992",
-            4 : "1991"
-        },
-        "player_answer": 0,
-        "right_answer" : 2,
+        "answers" : ["1993","1994","1992","1991"],
+        "player_answer": 99,
+        "right_answer" : 1,     // 0-3
         "category" : "Videospiele",
     },
     {   "question_img" : "img/img6.jpg",
         "question" : "Welches bekannte Unternehmen entwickelte die XBox",
-        "answers" : {
-            1 : "Microsoft",
-            2 : "Sony",
-            3 : "Nintendo",
-            4 : "Reinmetall"
-        },
-        "player_answer": 0,
-        "right_answer" : 1,
+        "answers" : ["Microsoft","Sony","Nintendo","Reinmetall"],
+        "player_answer": 99,
+        "right_answer" : 0,     // 0-3
         "category" : "Videospiele",
     },
     {   "question_img" : "img/gamesImg.jpg",
         "question" : "Wie heißt der Hauptprotagonist aus 'The Legend of Zelda'",
-        "answers" : {
-            1 : "Yoshi",
-            2 : "Zelda",
-            3 : "Mario",
-            4 : "Link"
-        },
-        "player_answer": 0,
-        "right_answer" : 4,
+        "answers" : ["Yoshi","Zelda","Mario","Link"],
+        "player_answer": 99,
+        "right_answer" : 3,     // 0-3
         "category" : "Videospiele",
     },
     // {   "question_img" : "img/gamesImg.jpg",

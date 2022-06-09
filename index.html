@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <script src="templates.js"></script>
     <script src="JSON.js"></script>
     <title>QuizApp</title>
 
@@ -78,13 +79,14 @@
                 
                 
                 <div class="card-body d-flex justify-content-between">
-                    <button id="buttonBeforQuestion" type="button" class="btn btn-outline-danger">Zurück</button>
+                    <button onclick="restart()" id="buttonRestart" type="button" class="btn btn-outline-danger">Neustart</button>
 
-                    <div>
-                        <span>1</span> von <span id="">9</span>
+                    <div id="questionNumberArea">
+                        <span id="currentQuestion"></span> von <span id="numberOfQuestions">9</span>
                     </div>
 
-                    <button id="buttonNextQuestion" type="button" class="btn btn-outline-success">Nächst Frage</button>
+                    <button onclick="saveResult()" id="buttonNextQuestion" type="button" class="btn btn-outline-success">Nächste Frage</button>
+                    <button onclick="saveResult()" id="buttonQuestionScore" type="button" class="btn btn-success d-none">Ergebniss</button>
                 </div>
             </div>
         </div>
